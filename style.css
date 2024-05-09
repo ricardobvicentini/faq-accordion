@@ -161,7 +161,7 @@ h2 {
     color: hsl(0 0% 100% / 0);
     background-clip: text;
     background-repeat: no-repeat;
-    background-size: 0 100%;
+    background-size: 100% 100%;
     background-image: linear-gradient(
       90deg,
       var(--cl-light-purple),
@@ -192,14 +192,14 @@ h2 {
   }
 }
 
-@keyframes reveal-text {
+/* @keyframes reveal-text {
   from {
     background-size: 0 100%;
   }
   to {
     background-size: 100% 100%;
   }
-}
+} */
 
 .attribution {
   width: fit-content;
